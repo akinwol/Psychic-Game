@@ -25,7 +25,7 @@ document.onkeyup = function () {
         guessRemaining = 9;
         document.querySelector('#wins').innerHTML = winCount;
         document.querySelector('#guessesleft').innerHTML = guessRemaining;
-        alert("equal");
+        // alert("equal");
     }
     else {
         guessRemaining--;
